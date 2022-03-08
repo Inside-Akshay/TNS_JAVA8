@@ -1,0 +1,29 @@
+
+public class Student {
+
+  int rollno;
+  String namesofstudent;
+  int mobileno;
+
+  
+  void display()
+  {
+	  System.out.println("roll number of student is");
+  }
+  void display1()
+  {
+	 System.out.println("Name of student");
+  }
+  void display2()
+  {
+	  System.out.println("Mobile number odf student");
+  }
+  
+  public static void main(String []args)
+  {
+	  Student stu=new Student();
+	  stu.display1();
+	  stu.display2();
+  }
+  
+}
